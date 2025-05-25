@@ -23,5 +23,6 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-  cursor: url("../../public/Flag_of_Jordan.svg.webp") 16 16, auto !important;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16"><rect width="24" height="5.33" fill="%23000000"/><rect y="5.33" width="24" height="5.33" fill="%23ffffff"/><rect y="10.66" width="24" height="5.34" fill="%23007A3D"/><polygon points="0,0 0,16 8,8" fill="%23CE1126"/><polygon points="4,7 4.5,8 5.5,8 4.75,8.75 5.25,9.75 4,9 2.75,9.75 3.25,8.75 2.5,8 3.5,8" fill="%23ffffff"/></svg>'),
+    auto;
 }
