@@ -72,9 +72,7 @@ const CoatOfArmsSection = () => {
           <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-yellow-600 via-red-600 to-green-600 bg-clip-text text-transparent">
             شعار المملكة الأردنية الهاشمية
           </h2>
-          <h3 className="text-4xl font-bold mb-4 text-gray-800">
-            Coat of Arms of Jordan
-          </h3>
+
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             شعار الأردن يتكون من عدة رموز تحمل معاني عميقة تمثل تاريخ الأردن
             وثقافته
@@ -229,12 +227,12 @@ const CoatOfArmsSection = () => {
                     }
                   </h4>
                 </div>
-                <h5 className="text-xl font-semibold text-gray-600 mb-4">
+                {/* <h5 className="text-xl font-semibold text-gray-600 mb-4">
                   {
                     coatElements[hoveredElement as keyof typeof coatElements]
                       .titleEn
                   }
-                </h5>
+                </h5> */}
                 <p
                   className="text-gray-700 leading-relaxed mb-4 text-right"
                   style={{ fontFamily: "Arial, sans-serif" }}
@@ -244,12 +242,12 @@ const CoatOfArmsSection = () => {
                       .description
                   }
                 </p>
-                <p className="text-gray-600 leading-relaxed text-left">
+                {/* <p className="text-gray-600 leading-relaxed text-left">
                   {
                     coatElements[hoveredElement as keyof typeof coatElements]
                       .descriptionEn
                   }
-                </p>
+                </p> */}
               </div>
             ) : (
               <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl p-8 border border-gray-300">
@@ -258,16 +256,10 @@ const CoatOfArmsSection = () => {
                   <h4 className="text-2xl font-bold text-gray-600 mb-4">
                     استكشف رموز الشعار
                   </h4>
-                  <h5 className="text-xl font-semibold text-gray-500 mb-4">
-                    Explore the Coat of Arms Elements
-                  </h5>
+
                   <p className="text-gray-500 leading-relaxed">
                     مرر الماوس فوق أجزاء الشعار لتتعرف على معاني كل رمز ودلالته
                     التاريخية والثقافية
-                  </p>
-                  <p className="text-gray-400 leading-relaxed mt-2">
-                    Hover over different parts of the coat of arms to learn
-                    about the meaning and historical significance of each symbol
                   </p>
                 </div>
               </div>
@@ -283,9 +275,7 @@ const CoatOfArmsSection = () => {
             <Globe className="w-6 h-6 text-blue-600 animate-pulse" />
             <Flag className="w-6 h-6 text-green-600 animate-pulse" />
           </div>
-          <p className="text-gray-600 italic text-lg">
-            "Each symbol tells the story of Jordan's proud heritage"
-          </p>
+
           <p className="text-gray-500 text-sm mt-2 font-arabic">
             "كل رمز يحكي قصة تراث الأردن العريق"
           </p>

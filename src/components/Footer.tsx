@@ -91,7 +91,7 @@ const Footer = () => {
             <p className="text-gray-300 text-lg">
               1946 - 2025 | ٧٩ عاماً من الاستقلال
             </p>
-            <div className="flex justify-center mt-4 space-x-2 rtl:space-x-reverse">
+            <div className="flex justify-center mt-4 space-x-0 rtl:space-x-reverse">
               {[...Array(5)].map((_, i) => (
                 <Star
                   key={i}

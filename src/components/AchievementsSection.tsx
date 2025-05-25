@@ -65,6 +65,9 @@ const AchievementsSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         {/* Introduction */}
         <div className="text-center mb-20">
+          <div className="flex justify-center mb-6">
+            <Crown className="w-16 h-16 text-yellow-400 animate-pulse" />
+          </div>
           <Image
             src={kingAbdullah}
             alt="King Abdullah II"
@@ -86,9 +89,6 @@ const AchievementsSection = () => {
 
         {/* Section Title */}
         <div className="text-center mb-16">
-          <div className="flex justify-center mb-6">
-            <Crown className="w-16 h-16 text-yellow-400 animate-pulse" />
-          </div>
           <h3 className="text-5xl font-bold mb-6 bg-gradient-to-r from-yellow-400 via-red-500 to-green-400 bg-clip-text text-transparent">
             إنجازات جلالة الملك عبدالله الثاني
           </h3>

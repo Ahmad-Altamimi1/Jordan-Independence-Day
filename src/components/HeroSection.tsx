@@ -245,14 +245,23 @@ const HeroSection = () => {
               Celebrating 79 years of sovereignty, dignity, and progress since
               May 25, 1946
             </p> */}
-            <div className=" px-6 md:px-0 animate-fade-in animation-delay-1500">
-              <div className="backdrop-blur-md bg-black/30 rounded-2xl p-3 border border-white/10">
-                <blockquote className="text-lg md:text-2xl italic font-medium text-white leading-relaxed">
+            <div className="px-6 md:px-0 animate-fade-in animation-delay-1500">
+              <div className="relative border-l-4 border-yellow-400 bg-black/30 backdrop-blur-md rounded-2xl p-6 md:p-8 shadow-lg">
+                <svg
+                  className="absolute top-4 left-4 w-10 h-10 text-yellow-400 opacity-50"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M7.17 6C5.58 6 4.26 7.31 4.26 8.9s1.31 2.9 2.9 2.9c.32 0 .63-.05.92-.13-.34 2.09-1.84 3.85-3.9 4.47l.68 1.93c3.18-.98 5.27-3.75 5.27-6.88V6H7.17zm9.66 0c-1.59 0-2.91 1.31-2.91 2.9s1.31 2.9 2.91 2.9c.32 0 .63-.05.92-.13-.34 2.09-1.84 3.85-3.9 4.47l.68 1.93c3.18-.98 5.27-3.75 5.27-6.88V6h-3.97z" />
+                </svg>
+
+                <blockquote className="text-white text-lg md:text-2xl italic font-medium leading-relaxed pl-14">
                   "سيبقى الأردن عظيما وطنا طيبا مباركا بأهله وأرضه... ووجها
                   عربيا صادقا.... وعنوانا لكل خير... وكل يوم من أيامه بداية
                   لمستقبل نصنعه بإيمان وعزيمة وثبات"
                 </blockquote>
-                <div className="mt-4 text-right text-lg md:text-xl font-bold text-yellow-300">
+
+                <div className="mt-6 text-right text-yellow-300 font-bold text-lg md:text-xl">
                   – جلالة الملك عبدالله الثاني
                 </div>
               </div>
