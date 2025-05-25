@@ -88,8 +88,8 @@ const AchievementsSection = () => {
         </div>
 
         {/* Section Title */}
-        <div className="text-center mb-16">
-          <h3 className="text-5xl font-bold mb-6 bg-gradient-to-r from-yellow-400 via-red-500 to-green-400 bg-clip-text text-transparent">
+        <div className="text-center mb-4 md:mb-16">
+          <h3 className="text-3xl md:text-5xl font-bold-6 bg-gradient-to-r from-yellow-400 via-red-500 to-green-400 bg-clip-text text-transparent">
             إنجازات جلالة الملك عبدالله الثاني
           </h3>
 

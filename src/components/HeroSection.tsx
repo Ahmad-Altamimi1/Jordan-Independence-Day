@@ -152,14 +152,14 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="relative z-10 text-center text-white  w-screen h-screen p-4">
+      <div className="relative z-10 text-center text-white  w-screen h-screen p-1 md:p-4">
         <div className="mb-8 h-full flex flex-col justify-between">
           {/* Improved Animated Jordanian Flag */}
 
           {/* <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-yellow-400 via-red-500 to-green-400 bg-clip-text text-transparent animate-fade-in">
             يوم الاستقلال
           </h1> */}
-          <h2 className="text-4xl md:text-6xl font-bold mb-8 animate-fade-in animation-delay-500">
+          <h2 className=" text-3xl md:text-6xl font-bold mb-8 animate-fade-in animation-delay-500">
             Jordan Independence Day
           </h2>
           <div className="flex  mb-8">
@@ -255,7 +255,7 @@ const HeroSection = () => {
                   <path d="M7.17 6C5.58 6 4.26 7.31 4.26 8.9s1.31 2.9 2.9 2.9c.32 0 .63-.05.92-.13-.34 2.09-1.84 3.85-3.9 4.47l.68 1.93c3.18-.98 5.27-3.75 5.27-6.88V6H7.17zm9.66 0c-1.59 0-2.91 1.31-2.91 2.9s1.31 2.9 2.91 2.9c.32 0 .63-.05.92-.13-.34 2.09-1.84 3.85-3.9 4.47l.68 1.93c3.18-.98 5.27-3.75 5.27-6.88V6h-3.97z" />
                 </svg>
 
-                <blockquote className="text-white text-lg md:text-2xl italic font-medium leading-relaxed pl-14">
+                <blockquote className="text-white text-lg md:text-2xl italic font-medium leading-relaxed md:pl-14">
                   "سيبقى الأردن عظيما وطنا طيبا مباركا بأهله وأرضه... ووجها
                   عربيا صادقا.... وعنوانا لكل خير... وكل يوم من أيامه بداية
                   لمستقبل نصنعه بإيمان وعزيمة وثبات"

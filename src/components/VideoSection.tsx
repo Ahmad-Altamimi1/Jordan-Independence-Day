@@ -23,7 +23,7 @@ const VideoSection = () => {
             </div>
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-yellow-400 via-red-500 to-green-400 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-3xl md:text-5xl font-bold-4 bg-gradient-to-r from-yellow-400 via-red-500 to-green-400 bg-clip-text text-transparent">
             كلمة جلالة الملك
           </h2>
         </div>

@@ -65,11 +65,11 @@ const CoatOfArmsSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-4 md:mb-16">
           <div className="flex justify-center mb-6">
             <Crown className="w-20 h-20 text-yellow-600 animate-pulse" />
           </div>
-          <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-yellow-600 via-red-600 to-green-600 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-5xl font-bold-6 bg-gradient-to-r from-yellow-600 via-red-600 to-green-600 bg-clip-text text-transparent">
             شعار المملكة الأردنية الهاشمية
           </h2>
 

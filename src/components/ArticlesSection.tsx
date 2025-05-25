@@ -11,8 +11,8 @@ const ArticlesSection = () => {
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-red-600 via-black to-green-600 bg-clip-text text-transparent">
+        <div className="text-center mb-4 md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold-6 bg-gradient-to-r from-red-600 via-black to-green-600 bg-clip-text text-transparent">
             استقلال الأردن
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
