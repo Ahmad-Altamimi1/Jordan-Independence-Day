@@ -1,13 +1,14 @@
 import React from "react";
 import { Heart, Star, Crown } from "lucide-react";
-
+import Image from "next/image";
+import Flag_of_Jordan from "../../public/Flag_of_Jordan.svg.webp";
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-black text-white relative overflow-hidden">
       {/* شريط علوي زخرفي */}
       <div className="h-1 bg-gradient-to-r from-red-600 via-white to-green-600"></div>
 
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 pt-16 pb-4">
         {/* محتوى التذييل الرئيسي */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* عن الأردن */}
@@ -59,7 +60,15 @@ const Footer = () => {
               الرموز الوطنية
             </h3>
             <ul className="space-y-2 text-gray-300">
-              <li>🇯🇴 العلم: ألوان الوحدة العربية</li>
+              <li className="flex items-center ">
+                <Image
+                  src={Flag_of_Jordan}
+                  alt="Flag_of_Jordan"
+                  width={20}
+                  height={20}
+                />
+                <p>: ألوان الوحدة العربية</p>
+              </li>
               <li>👑 الشعار: التاج الملكي</li>
               <li>🌟 النجمة السباعية</li>
               <li>🦅 نسر صلاح الدين</li>
@@ -112,17 +121,17 @@ const Footer = () => {
               </p>
               <p className="text-sm text-gray-500 mt-1">عاش الأردن</p>
             </div>
-
-            <div className="flex items-center space-x-2 text-red-400 rtl:space-x-reverse">
-              <span>صُنع بحب</span>
-              <Heart className="w-4 h-4 text-red-500 animate-pulse" />
-              <span>للأردن</span>
-            </div>
           </div>
 
           {/* عنصر زخرفي نهائي */}
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 flex justify-center items-center relative">
             <div className="w-64 h-1 bg-gradient-to-r from-transparent via-yellow-400 to-transparent rounded-full"></div>
+            <div
+              className="absolute text-sm md:text-base px-4 bg-white dark:bg-gray-900 text-yellow-600 font-semibold"
+              dir="ltr"
+            >
+              © Created by Ahmad Mohammad Altamimi
+            </div>
           </div>
         </div>
       </div>
